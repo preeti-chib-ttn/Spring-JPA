@@ -15,8 +15,8 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/day1")
-@Tag(name = "Day1")
+@RequestMapping("/day2")
+@Tag(name = "Day - 2")
 public class EmployeeDay2 {
 
     // Avoided service layer to be more focused on Spring jpa data functionalities

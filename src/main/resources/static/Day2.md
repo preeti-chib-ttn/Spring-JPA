@@ -54,10 +54,13 @@
 ---
 
 # Inheritance Mapping
+
+
 1) Implement and demonstrate **Single Table strategy**.
 2) Implement and demonstrate **Joined strategy**.
 3) Implement and demonstrate **Table Per Class strategy**.
 
+- ![TablesInheritanceMapping.png](Day2/TablesInheritanceMapping.png)
 ---
 
 # Component Mapping
@@ -70,3 +73,5 @@
     - `bonusSalary`
     - `taxAmount`
     - `specialAllowanceSalary`  
+
+- ![EmbeddedEmployee.png](Day2/EmbeddedEmployee.png)
