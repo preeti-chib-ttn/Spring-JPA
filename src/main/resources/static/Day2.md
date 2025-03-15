@@ -1,4 +1,4 @@
-# Day 2 - Spring Data JPA
+# Day 2 - Spring Data JPA 
 
 ## JPQL Instructions
 ### A) Create an `employeeTable` table with the following fields:
@@ -8,8 +8,6 @@
 - `empSalary`
 - `empAge`
 
-- ![EmployeeTableView.png](Day2/EmployeeTableView.png)
-
 ### B) Create an `Employee` entity with the following fields:
 - `id`
 - `firstName`
@@ -18,7 +16,6 @@
 - `age`  
   which maps to the table columns given above.
 
-- ![EntityView.png](Day2/EntityView.png)
 
 ## Questions
 1) Display the first name, last name of all employees having salary greater than average salary ordered in ascending by their age and in descending by their salary.
