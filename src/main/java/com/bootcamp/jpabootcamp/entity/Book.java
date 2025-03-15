@@ -1,0 +1,8 @@
+package com.bootcamp.jpabootcamp.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Book {
+    private String bookName;
+}
