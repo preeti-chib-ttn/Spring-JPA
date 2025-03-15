@@ -3,7 +3,6 @@ package com.bootcamp.jpabootcamp.repository;
 import com.bootcamp.jpabootcamp.entity.Employee;
 import com.bootcamp.jpabootcamp.projection.NameProjection;
 import jakarta.transaction.Transactional;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -46,4 +45,19 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long> {
     @Modifying
     @Query("DELETE Employee WHERE salary= :minSalary")
     int deleteAllMinSalaryEmployee(@Param("minSalary") Double minSalary);
+
+
+    /*
+    Display the id, firstName, age of all employees where last name ends with "singh".
+    * */
+    @Query(value = "SELECT emp_id,emp_first_name, emp_age from employee_table where emp_last_name= \"singh\" ", nativeQuery = true)
+    List<Object[]> findEmployeeWhereLastNameSingh();
+
+
+    /* Delete all employees with age greater than 45 (should be passed as a parameter).*/
+    @Transactional
+    @Modifying
+    @Query(value = "DELETE FROM employee_table where emp_age< :age", nativeQuery = true)
+    int deleteEmployeebyAge(@Param("age") Integer age);
+
 }

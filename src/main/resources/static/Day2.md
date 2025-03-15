@@ -47,7 +47,9 @@
 
 ## Questions
 1) Display the `id`, `firstName`, `age` of all employees where last name ends with `"singh"`.
+   - ![Q2-a.png](Day2/Q2-a.png)
 2) Delete all employees with age greater than `45` (should be passed as a parameter).
+   - ![Q2-b.png](Day2/Q2-b.png)
 
 ---
 
