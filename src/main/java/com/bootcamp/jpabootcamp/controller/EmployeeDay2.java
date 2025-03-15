@@ -1,15 +1,12 @@
 package com.bootcamp.jpabootcamp.controller;
 
 
-import com.bootcamp.jpabootcamp.entity.Employee;
 import com.bootcamp.jpabootcamp.projection.NameProjection;
 import com.bootcamp.jpabootcamp.repository.EmployeeRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/day1")
 @Tag(name = "Day1")
-public class EmployeeDay1 {
+public class EmployeeDay2 {
 
     // Avoided service layer to be more focused on Spring jpa data functionalities
     @Autowired
