@@ -22,9 +22,11 @@
 
 ## Questions
 1) Display the first name, last name of all employees having salary greater than average salary ordered in ascending by their age and in descending by their salary.
+    - ![Q1-a.png](Day2/Q1-a.png)
 2) Update salary of all employees by a salary passed as a parameter whose existing salary is less than the average salary.
+    - ![Q1-b.png](Day2/Q1-b.png)
 3) Delete all employees with minimum salary.
-
+    - ![Q1-c.png](Day2/Q1-c.png)
 ---
 
 ## Native Query Instructions
